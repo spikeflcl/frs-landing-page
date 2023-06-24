@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1280" width="1536" height="1280">
+	<title>Inteligentne obiekty wektorowe-ai</title>
+	<style>
+		.s0 { fill: none;stroke: #201d1e;stroke-linecap: round;stroke-linejoin: round;stroke-width: 64 } 
+	</style>
+	<g id="Icons">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m32 96c0-35.3 28.7-64 64-64h1344c35.3 0 64 28.7 64 64v832c0 35.3-28.7 64-64 64h-960l-256 256v-256h-128c-35.3 0-64-28.7-64-64z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m576 512c0 17.7-14.3 32-32 32-17.7 0-32-14.3-32-32 0-17.7 14.3-32 32-32 17.7 0 32 14.3 32 32z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m1088 512c0 17.7-14.3 32-32 32-17.7 0-32-14.3-32-32 0-17.7 14.3-32 32-32 17.7 0 32 14.3 32 32z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m832 512c0 17.7-14.3 32-32 32-17.7 0-32-14.3-32-32 0-17.7 14.3-32 32-32 17.7 0 32 14.3 32 32z"/>
+		</g>
+	</g>
+</svg>

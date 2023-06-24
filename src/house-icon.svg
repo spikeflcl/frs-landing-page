@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 896" width="960" height="896">
+	<title>Inteligentne obiekty wektorowe-ai</title>
+	<style>
+		.s0 { fill: none;stroke: #0a0b0b;stroke-linecap: round;stroke-width: 32 } 
+		.s1 { fill: none;stroke: #0a0b0b;stroke-linecap: round;stroke-linejoin: round;stroke-width: 32 } 
+	</style>
+	<g id="Free icons">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m816 496v384h-224v-288h-224v288h-224v-384"/>
+			<path id="&lt;Path&gt;" class="s1" d="m16 480l464-464 464 464"/>
+			<path id="&lt;Path&gt;" class="s0" d="m624 48h160v160"/>
+		</g>
+	</g>
+</svg>

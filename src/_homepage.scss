@@ -1,0 +1,139 @@
+.main {
+  width: 86vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 53px;
+}
+
+.header-logo {
+  margin-left: 2em;
+}
+
+.navigation {
+  gap: 30px
+}
+
+.nav-icon {
+  height: 2.5em;
+  width: 2.2em;
+  transform: skewY(10deg);
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.map {
+  height: 70vh;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+.input-field {
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-input {
+  background-color: white;
+  transition: background-color 0.2s ease-in-out;
+
+  &:invalid {
+    background-color: red;
+  
+    & ~ .submit-button {
+      opacity: 0.5;
+      user-select: none;
+      cursor: auto;
+    }
+  }
+}
+
+.submit-button {
+  margin-top: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  width: 200px;
+  border-radius: 10px;
+  svg {
+    width: 42px;
+    height: 36px;
+    transform: skewY(10deg);
+  }
+  transition: opacity 0.2s ease-in-out;
+}
+
+.footer {
+  padding: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // height: 100vh;
+    margin: 0;
+    z-index: 1;
+    top: 40px;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.2s transform ease-in-out;
+    background-color: white;
+    gap: 10px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .menu {
+    position: static;
+    flex-direction: row;
+  }
+
+  .contact-info {
+    display: block;
+    margin-top: 50px;
+    padding-top: 76px;
+    padding-left: 63px;
+    height: 423px;
+  }
+
+  .map {
+    height: 423px;
+  }
+
+  .input-field {
+    width: 75%;
+  }
+
+  .submit-button {
+    width: 309px;
+    margin-top: 115px;
+  }
+
+  .footer {
+    padding-left: 139px;
+    padding-right: 139px;
+  }
+}

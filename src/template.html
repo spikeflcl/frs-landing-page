@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body>
+  <%= require('./partials/svg.html').default %>
+  <header class="py-xl-3 bg-white d-flex align-items-center sticky-top">
+    <h1 class="fs-60 mb-0 header-logo mx-auto me-lg-auto">LOGO</h1>
+      <span class="d-none d-xl-inline text-secondary me-4">MAMY SUPER PRZEDMIOTY //</span>
+      <nav class="me-0 me-lg-5">
+        <input type="checkbox" class="hamburger-logic d-lg-none"/>
+        <div class="hamburger d-lg-none"></div>
+        <ul class="menu list-unstyled d-flex gap-1em mb-0">
+          <li class="fw-bold text-primary">
+            <a href="#" class="d-block link-unstyled">
+              <svg class="nav-icon me-1">
+                <use xlink:href="#message-icon"></use>
+              </svg>
+              AKTUALNOŚCI
+            </a>
+          </li>
+          <li class="fw-bold">
+            <a href="#" class="d-block  link-unstyled">
+              <svg class="nav-icon me-1">
+                <use xlink:href="#house-icon"></use>
+              </svg>
+              SKLEPY
+            </a>
+          </li>
+          <li class="fw-bold">
+            <a href="#" class="d-block link-unstyled">
+              <svg class="nav-icon me-1">
+                <use xlink:href="#heart-icon"></use>
+              </svg>
+              MARKI
+            </a>
+          </li>
+          <li class="fw-bold">
+            <a href="#" class="d-block link-unstyled">
+              <svg class="nav-icon me-1">
+                <use xlink:href="#letter-icon"></use>
+              </svg>
+              KONTAKT
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+  <main class="main">
+    <h2 class="text-white fs-6vw">FORMULARZ KONTAKTOWY</h2>
+    <section class="d-flex flex-column flex-lg-row">
+      <div class="contact-info bg-white py-4 pt-lg-5">
+        <h3 class="fs-4vw">Dane kontaktowe</h3>
+        <p class="fs-18 mt-3 mt-lg-5">
+          Jakaś firma<br>
+          ul. Cokolwiek 3/5<br>
+          52-232 Gdzieś<br>
+        </p>
+        <address class="address fs-18">
+          <a href="#" class="link-unstyled"> tel: +48 123 435 456</a><br>
+          <a href="#" class="link-unstyled">email: qwdasd@asdaf.pl</a><br>
+        </address>
+      </div>
+      <div class="map">
+        <div id="map"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+      </div>
+    </section>
+    <form action="" method="get" class="text-white d-flex flex-column input-field mb-5">
+      <h3 class="fs-40">Formularz kontaktowy</h3>
+      <label for="email" class="fs-18">Email</label>
+      <input id="email" class="h-59 form-input mt-3 rounded-0 border-0" type="email">
+      <label for="title" class="fs-18 mt-33">Tytuł</label>
+      <input id="title" class="h-59 form-input mt-3 rounded-0  border-0" type="text" minlength="10" maxlength="80">
+      <label for="message" class="fs-18 mt-40">Treść wiadomości</label>
+      <textarea id="message" class="h-177 form-input mt-3 rounded-0 border-0" rows="3" minlength="10" maxlength="250"></textarea>
+      <button class="submit-button fs-36 text-white" type="submit">
+        <svg class="submit-icon">
+          <use xlink:href="#letter-icon"></use>
+        </svg>
+        Wyślij
+      </button>
+    </form>
+  </main>
+  <footer class="footer py-4 bg-white d-flex flex-column justify-content-center flex-lg-row justify-content-lg-between align-items-center">
+    <div class="fs-12 text-secondary">
+      © 2014 Jakaś firma. Wszystkie prawa zastrzeżone.
+    </div>
+    <div class="fs-12 text-secondary">
+      Projekt i wykonanie strony www - Łukasz Piwowar
+    </div>
+  </footer>
+</body>
+</html>
